@@ -1,0 +1,27 @@
+@mixin telefono {
+    @media (min-width: $telefono) {
+        //le paso la directiva así me deja poner lo que yo quiera al usar el mixin
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: $tablet) {
+        //para tablet
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop) {
+        //para desktop
+        @content;
+    }
+}
+
+// mixin para grid
+@mixin grid($columnas, $espaciado) {
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espaciado;
+}

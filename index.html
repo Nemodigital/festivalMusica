@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <!-- HEADER Cabecera -->
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#">Line Up</a>
+                <a href="#">Galería</a>
+                <a href="#">Entradas</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- VIDEO -->
+    <!-- controls muestra los controles de reproducción -->
+    <!-- autoplay pone en marcha el video -->
+    <!-- muted quita el sonido -->
+    <!-- loop cuando llegue al final el video, lo vuelve a reproducir -->
+
+    <div class="video">
+        <div class="overlay">
+            <!-- contenedor nos centra el contenido -->
+            <div class="contenedor contenido-video">
+                <h2>Rock & EDM Festival
+                    <span>Julio 2021, Villena, Alicante</span>
+                </h2>
+            </div>
+        </div>
+        <video controls autoplay muted loop>
+            <!-- en source agregamos los diferentes tipos de video. Si uno no lo lee el navegador escoge el siguiente formato -->
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <!-- SOBRE EL FESTIVAL -->
+    <div class="sobre-festival contenedor">
+        <div class="imagen">
+            <img src="build/img/imagen_vocalista.jpg" alt="Imagen vocalista">
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">Julio 2021 Villena, Alicante</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ad nobis eos dolorum corrupti, quas facilis quaerat dolorem culpa veniam facere asperiores repudiandae hic nostrum minima repellendus quam, voluptate quo?</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Festival de música",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nemodigital/festivalMusica.git"
+  },
+  "keywords": [
+    "SAAS",
+    "Gulp",
+    "Festival",
+    "Música",
+    "Nemesio"
+  ],
+  "author": "Nemesio Juan Navalón Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nemodigital/festivalMusica/issues"
+  },
+  "homepage": "https://github.com/Nemodigital/festivalMusica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-imagemin": "^7.0.0",
+    "gulp-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
